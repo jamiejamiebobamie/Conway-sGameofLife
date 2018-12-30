@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "index.css" />
+  </head>
+  <body>
+     <div id="title">
+     <h1>Conway's Game of Life</h1>
+     <blockquote>
+     <p>The universe of the Game of Life is an ... orthogonal grid of square cells, each of which is in one of two possible states, alive or dead...</p>
+     <p>Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent.</p>
+     <p>At each step in time, the following transitions occur:</p>
+
+<ol>Any live cell with fewer than two live neighbors dies, as if by underpopulation.</ol>
+<ol>Any live cell with two or three live neighbors lives on to the next generation.</ol>
+<ol>Any live cell with more than three live neighbors dies, as if by overpopulation.</ol>
+<ol>Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.</ol>
+<p>The initial pattern constitutes the seed of the system.</p></blockquote>
+<cite id='citation'>https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life</cite>
+ </div>
+
+     <!-- <div id="empty">
+     <h1>empty</h1>
+     <p>empty</p>
+     </div> -->
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
