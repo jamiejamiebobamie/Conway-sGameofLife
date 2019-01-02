@@ -1,0 +1,26 @@
+{
+  "name": "conwaygol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiejamiebobamie/Conway-sGameofLife.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamiejamiebobamie/Conway-sGameofLife/issues"
+  },
+  "homepage": "https://github.com/jamiejamiebobamie/Conway-sGameofLife#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.12",
+    "nodemon": "^1.18.9",
+    "path": "^0.12.7"
+  }
+}

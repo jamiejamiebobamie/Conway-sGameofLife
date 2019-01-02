@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "css/index.css" />
+  </head>
+  <body>
+
+<h1 class='title'>Conway's Game of Life</h1>
+
+<p class='beginning'>Conways's Game of Life is made up of square cells arranged in a grid.</p>
+
+<p class='middle'>Each cell is either alive (colored) or dead (grey), depending on the cell's neighbours (eight in all).</p>
+
+<div class='rules'>
+<p>Every turn, cells live, die, or are "born" based on these rules:</p>
+<ol>Any live cell with fewer than two live neighbors dies, as if by underpopulation.</ol>
+<ol>Any live cell with two or three live neighbors lives on to the next generation.</ol>
+<ol>Any live cell with more than three live neighbors dies, as if by overpopulation.</ol>
+<ol>Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.</ol>
+ </div>
+<p class='end'>As a special feature, in my Game of Life when a new cell is "born", it inherits its color from the cells that gave to "birth" it.</p>
+
+ <div id="sketch-holder">
+      <!-- https://github.com/processing/p5.js/wiki/Positioning-your-canvas-->
+    </div>
+<p><a href="https://github.com/jamiejamiebobamie/Conway-sGameofLife">Please visit my github for the code.</a></p>
+    <script src="js/sketch.js"></script>
+  </body>
+</html>

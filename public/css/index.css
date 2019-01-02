@@ -1,0 +1,36 @@
+body {
+ background-color: #f9f9f9;
+ font-family: courier;
+ font-style: normal;
+ padding: 15px;
+ margin: 40px;
+ display:flex;
+ flex-direction: column;
+}
+
+.title{
+    font-size: 40px;
+}
+
+.beginning{
+    font-size: 30px;
+}
+
+.middle{
+    font-size: 20px;
+}
+
+.rules{
+    font-size: 20px;
+    padding:5px;
+}
+
+.end{
+    font-size: 20px;
+    padding:25px;
+}
+
+#sketch-holder{
+    /* margin: 15px; */
+    padding:25px;
+}
